@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Joaqui Portfolio</title>
+    <!-- <link rel="stylesheet" href="../css_files/homepage.css"> -->
+    <link href="../css_files/output-homepage.css" rel="stylesheet">
+</head>
+<body class="font-arial bg-[#00122b] text-white">
+
+    <!-- Full-height section for video background -->
+    <div class="relative h-screen w-full overflow-hidden">
+        <iframe 
+            class="absolute top-1/2 left-1/2 w-[140vw] h-[140vh] transform -translate-x-1/2 -translate-y-1/2 scale-125 blur-[20px]"
+            src="https://www.youtube.com/embed/fe2YjDqbzDk?autoplay=1&mute=1&loop=1&playlist=fe2YjDqbzDk&controls=0&showinfo=0&modestbranding=1"
+            frameborder="0" 
+            allowfullscreen 
+            allow="autoplay; encrypted-media">
+        </iframe>
+    </div>   
+
+    <!-- Fixed Navbar -->
+    <nav class="fixed top-0 left-0 w-[1488px] flex items-center h-[72px] rounded-[20px] border border-white/40 
+        bg-gradient-to-r from-black/20 to-white/30 shadow-md backdrop-blur-[10px] p-[15px] m-[15px] 
+        gap-[660px] font-bold z-50">
+        
+        <div class="logo flex items-center gap-5">
+            <img src="../assets/img/logo.png" alt="Logo" class="h-[50px] w-auto rounded-[80px]">
+            <div class="text-white">JOHN JOAQUI</div>
+        </div>
+
+        <div class="pages flex gap-[65px] text-white">
+            <div class="text-[#00122b]">HOME</div>
+            <div>ABOUT ME</div>
+            <a target="_blank" 
+                href="https://onedrive.live.com/:w:/g/personal/367F346638E5E899/s!Apno5ThmNH82i1Ix03cbVGl8eSSU?resid=367F346638E5E899!1490"
+                class="resume transition duration-500 hover:text-[#00122b]">
+                RESUME
+            </a>
+            <div>WORKS</div>
+            <div>CONTACT ME</div>
+        </div>
+    </nav>
+
+    <!-- Content on top of video -->
+    <div class="absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center text-center">
+        <div class="text-[20px] font-semibold">
+            <p>Hi, I’m John Joaqui Domenden, a Creative Designer and Editor</p>
+            <p>I specialize in web design, video editing, photo editing, and graphic design</p>
+        </div>
+        <button onclick="window.location.href='home.html';" 
+            class="mt-12 cursor-pointer border-2 bg-white text-[#00122b] border-white hover:border-[#00122b]
+                transition-all duration-500 hover:bg-[#00122b] hover:text-white 
+                w-[200px] h-[45px] text-[16px] rounded-[15px] font-bold">
+            VIEW MY WORKS
+        </button>
+    </div>
+
+    <!-- New section with solid background -->
+    <div class="h-screen bg-[#00122b] flex flex-col items-center justify-center text-center">
+        <h2 class="text-3xl font-bold">More Content Here</h2>
+        <p class="text-lg">This section has a dark blue background.</p>
+    </div>
+
+</body>
+
+</html>
