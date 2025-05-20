@@ -231,8 +231,26 @@
   .mt-\[30px\] {
     margin-top: 30px;
   }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mt-\[70px\] {
     margin-top: 70px;
+  }
+  .mt-\[350px\] {
+    margin-top: 350px;
+  }
+  .mt-\[355px\] {
+    margin-top: 355px;
+  }
+  .mt-\[360px\] {
+    margin-top: 360px;
+  }
+  .mt-\[380px\] {
+    margin-top: 380px;
+  }
+  .mt-\[400px\] {
+    margin-top: 400px;
   }
   .mt-\[453px\] {
     margin-top: 453px;
@@ -245,18 +263,6 @@
   }
   .mt-\[990px\] {
     margin-top: 990px;
-  }
-  .mt-\[1020px\] {
-    margin-top: 1020px;
-  }
-  .mt-\[1200px\] {
-    margin-top: 1200px;
-  }
-  .mt-\[1220px\] {
-    margin-top: 1220px;
-  }
-  .mt-\[1290px\] {
-    margin-top: 1290px;
   }
   .mt-\[1300px\] {
     margin-top: 1300px;
@@ -481,17 +487,23 @@
   .gap-\[30px\] {
     gap: 30px;
   }
+  .gap-\[47px\] {
+    gap: 47px;
+  }
   .gap-\[50px\] {
     gap: 50px;
   }
   .gap-\[65px\] {
     gap: 65px;
   }
+  .gap-\[90px\] {
+    gap: 90px;
+  }
   .gap-\[100px\] {
     gap: 100px;
   }
-  .gap-\[500px\] {
-    gap: 500px;
+  .gap-\[390px\] {
+    gap: 390px;
   }
   .gap-\[660px\] {
     gap: 660px;
@@ -626,23 +638,11 @@
   .py-\[300px\] {
     padding-block: 300px;
   }
-  .pt-\[10px\] {
-    padding-top: 10px;
-  }
-  .pt-\[20px\] {
-    padding-top: 20px;
-  }
   .pt-\[30px\] {
     padding-top: 30px;
   }
   .pt-\[50px\] {
     padding-top: 50px;
-  }
-  .pt-\[70px\] {
-    padding-top: 70px;
-  }
-  .pt-\[700px\] {
-    padding-top: 700px;
   }
   .pl-\[10px\] {
     padding-left: 10px;
